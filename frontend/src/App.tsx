@@ -73,7 +73,7 @@ export const App: FC<
                             "#6ca691",
                             "#5a917e",
                             "#4e816f",
-                            "#3d705f"
+                            "#3d705f",
                           ],
                     },
                     primaryColor: "purple",

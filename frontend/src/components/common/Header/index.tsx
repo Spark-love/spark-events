@@ -12,7 +12,7 @@ export const Header = ({rightContent, fullWidth = false}: HeaderProps) => {
         <header className={classes.header}>
             <Container size="md" className={classes.inner} fluid={fullWidth}>
                 <NavLink className={classes.logo} to={'/manage/events'}>
-                    <img src="/spark-logo-dark.png" alt="Spark logo" className={classes.logo}/>
+                    <img src="/spark-logo-white.png" alt="Spark logo" className={classes.logo}/>
                 </NavLink>
 
                 <div className={classes.rightContent}>

@@ -64,17 +64,17 @@ export const App: FC<
                 theme={{
                     colors: {
                         purple: [
-                            "#8260C6",
-                            "#734DBF",
-                            "#6741B2",
-                            "#5E3CA1",
-                            "#563792",
-                            "#4E3284",
-                            "#472E78",
-                            "#40296C",
-                            "#392562",
-                            "#332158",
-                        ],
+                            "#f2f8f6",
+                            "#e6ecea",
+                            "#c8dad3",
+                            "#a5c7bb",
+                            "#89b5a5",
+                            "#76ac98",
+                            "#6ca691",
+                            "#5a917e",
+                            "#4e816f",
+                            "#3d705f"
+                          ],
                     },
                     primaryColor: "purple",
                     fontFamily: "'Varela Round', sans-serif",

@@ -17,7 +17,7 @@ export const ErrorDisplay = () => {
     return (
         <Container className={classes.root}>
             <div className={classes.logo}>
-                <img src="/logo-dark.svg" alt="Error"/>
+                <img src="/spark-logo-white.png" alt="Error"/>
             </div>
             <h2 className={classes.title}>{title}</h2>
             <div className={classes.description}>

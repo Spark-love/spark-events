@@ -175,7 +175,7 @@ const EventLayout = () => {
                 <div className={classes.logo}>
                     <NavLink to={'/manage/events'}>
                         <img style={{maxWidth: '170px', margin: "20px auto"}}
-                             src={'/logo.svg'} alt={''}/>
+                             src={'/spark-logo-white.png'} alt={''}/>
                     </NavLink>
                 </div>
                 <div className={classes.nav}>

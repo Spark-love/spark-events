@@ -20,18 +20,7 @@ export const GlobalMenu = () => {
             icon: IconSettingsCog,
             link: `/account/settings`,
         },
-        {
-            label: t`Help & Support`,
-            icon: IconLifebuoy,
-            link: 'https://hi.events/docs?utm_source=app-top-menu-help-support',
-            target: '_blank',
-        },
-        {
-            label: t`Feedback`,
-            icon: IconSpeakerphone,
-            link: 'mailto:hello@hi.events?subject=Feedback',
-            target: '_blank',
-        },
+        
         {
             label: t`Logout`,
             icon: IconLogout,

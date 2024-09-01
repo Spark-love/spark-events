@@ -102,10 +102,10 @@ export const Register = () => {
                 <footer>
                     <Trans>
                         By registering you agree to our <NavLink target={'_blank'}
-                                                                 to={'https://hi.events/terms-of-service?utm_source=app-register-footer'}>Terms
+                                                                 to={'https://spark.love/terms-of-service'}>Terms
                         of Service</NavLink> and <NavLink
                         target={'_blank'}
-                        to={'https://hi.events/privacy-policy?utm_source=app-register-footer'}>Privacy Policy</NavLink>.
+                        to={'https://spark.love/privacy-policy'}>Privacy Policy</NavLink>.
                     </Trans>
                 </footer>
             </Card>

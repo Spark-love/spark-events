@@ -1651,7 +1651,7 @@ msgid "Hi.Events Conference Center"
 msgstr "Centro de conferencias Hi.Events"
 
 #: src/components/layouts/AuthLayout/index.tsx:24
-msgid "hi.events logo"
+msgid "Spark Logo"
 msgstr "hola.eventos logo"
 
 #: src/components/common/TicketsTable/SortableTicket/index.tsx:77

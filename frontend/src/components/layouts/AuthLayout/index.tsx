@@ -3,7 +3,7 @@ import classes from "./Auth.module.scss";
 import {t} from "@lingui/macro";
 import {useGetMe} from "../../../queries/useGetMe.ts";
 import {PoweredByFooter} from "../../common/PoweredByFooter";
-import {LanguageSwitcher} from "../../common/LanguageSwitcher";
+/* import {LanguageSwitcher} from "../../common/LanguageSwitcher"; */
 
 const AuthLayout = () => {
     const me = useGetMe();
@@ -14,32 +14,18 @@ const AuthLayout = () => {
     return (
         <>
             <header>
-                <div className={classes.languageSwitcher}>
+              {/*   <div className={classes.languageSwitcher}>
                     <LanguageSwitcher/>
-                </div>
+                </div> */}
 
             </header>
             <main className={classes.container}>
                 <div className={classes.logo}>
-                    <img src={'/spark-logo-white.png'} alt={t`hi.events logo`}/>
+                    <img src={'/spark-logo-dark.png'} alt={t`Spark Logo`}/>
                 </div>
                 <div className={classes.wrapper}>
                     <Outlet/>
-                    {
-                        /*
-                        * (c) Hi.Events Ltd 2024
-                        *
-                        * PLEASE NOTE:
-                        *
-                        * Hi.Events is licensed under the GNU Affero General Public License (AGPL) version 3.
-                        *
-                        * You can find the full license text at: https://github.com/HiEventsDev/hi.events/blob/main/LICENSE
-                        *
-                        * In accordance with Section 7(b) of the AGPL, we ask that you retain the "Powered by Hi.Events" notice.
-                        *
-                        * If you wish to remove this notice, a commercial license is available at: https://hi.events/licensing
-                        */
-                    }
+
                     <PoweredByFooter/>
                 </div>
             </main>

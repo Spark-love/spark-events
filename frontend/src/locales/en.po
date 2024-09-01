@@ -1898,8 +1898,8 @@ msgid "Hi.Events Conference Center"
 msgstr "Hi.Events Conference Center"
 
 #: src/components/layouts/AuthLayout/index.tsx:24
-msgid "hi.events logo"
-msgstr "hi.events logo"
+msgid "Spark Logo"
+msgstr "Spark Logo"
 
 #: src/components/common/TicketsTable/SortableTicket/index.tsx:77
 msgid "Hidden from public view"

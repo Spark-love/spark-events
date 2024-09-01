@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <img src="https://hievents-public.s3.us-west-1.amazonaws.com/website/hi-events-rainbow.png?v=1" alt="Hi.Events Logo" width="200px">
+  <img src="https://hievents-public.s3.us-west-1.amazonaws.com/website/hi-events-rainbow.png?v=1" alt="Spark Logo" width="200px">
 </p>
 
 

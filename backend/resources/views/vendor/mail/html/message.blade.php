@@ -6,7 +6,7 @@
                 <img src="{{ $appLogo }}" class="logo" alt="{{ config('app.name') }}"
                      style="max-width: 300px;">
             @else
-                <img src="{{ config('app.frontend_url') }}/spark-logo-white.png" class="logo" alt="{{ config('app.name') }}"
+                <img src="{{ config('app.frontend_url') }}/spark-logo-dark.png" class="logo" alt="{{ config('app.name') }}"
                      style="max-width: 300px;">
             @endif
         </x-mail::header>

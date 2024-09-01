@@ -34,7 +34,6 @@ import {EventStatusBadge} from "../../common/EventStatusBadge";
 const EventLayout = () => {
     const data = [
         {link: 'getting-started', label: t`Getting Started`, icon: IconStar},
-        {label: t`Manage`},
         {link: 'dashboard', label: t`Dashboard`, icon: IconDashboard},
         {link: 'settings', label: t`Settings`, icon: IconSettings},
         {link: 'tickets', label: t`Tickets`, icon: IconTicket},

@@ -41,6 +41,7 @@ use HiEvents\Http\Actions\Events\DuplicateEventAction;
 use HiEvents\Http\Actions\Events\GetEventAction;
 use HiEvents\Http\Actions\Events\GetEventPublicAction;
 use HiEvents\Http\Actions\Events\GetEventsAction;
+use HiEvents\Http\Actions\Events\GetEventsPublicAction;
 use HiEvents\Http\Actions\Events\Images\CreateEventImageAction;
 use HiEvents\Http\Actions\Events\Images\DeleteEventImageAction;
 use HiEvents\Http\Actions\Events\Images\GetEventImagesAction;
@@ -242,6 +243,9 @@ $router->middleware(['auth:api'])->group(
 $router->prefix('/public')->group(
     function (Router $router): void {
         // Events
+        $router->get('/events', GetEventsPublicAction::class);
+
+
         $router->get('/events/{event_id}', GetEventPublicAction::class);
 
         // Tickets

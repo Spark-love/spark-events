@@ -101,10 +101,9 @@ export default function StripeCheckoutForm() {
 
     const paymentElementOptions: stripeJs.StripePaymentElementOptions = {
         layout: {
-            type: 'accordion',
+            type: "accordion",
             defaultCollapsed: false,
             radios: false,
-            spacedAccordionItems: true
         },
     }
 
